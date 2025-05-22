@@ -67,8 +67,8 @@ sudo systemctl restart docker
 
 # Step 4: Create Ethereum directories
 echo -e "${YELLOW}[4/13] Creating Ethereum directories...${NC}"
-mkdir -p /root/ethereum/execution
-mkdir -p /root/ethereum/consensus
+mkdir -p ~/ethereum/execution
+mkdir -p ~/ethereum/consensus
 check_success "Directory creation"
 
 # Step 5: Generate JWT secret
